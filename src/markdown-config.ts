@@ -23,8 +23,8 @@ export const ASSET_PREFIX = {
 } as const;
 
 export const ASSET_ROUTES = {
-  docs: (slug: string) => `/forge/docs/${slug}`,
-  docsApi: (slug: string) => `/forge/docs/${slug}?api`,
+  docs: (slug: string) => `/markdown/docs/${slug}`,
+  docsApi: (slug: string) => `/markdown/docs/${slug}?api`,
 };
 
 // DOMPurify configuration for markdown content

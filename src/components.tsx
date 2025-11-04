@@ -68,7 +68,7 @@ export function MarkdownPage({ loaderData, spriteUrl }: MarkdownPageProps): Reac
       setSelectedDoc(preloadedDoc);
       setError(null);
     } else {
-      // Extract slug from URL path: /forge/docs/some/nested/path -> some/nested/path
+      // Extract slug from URL path: /markdown/docs/some/nested/path -> some/nested/path
       const pathParts = location.pathname.split('/');
       const docsIndex = pathParts.indexOf('docs');
       if (docsIndex !== -1 && docsIndex < pathParts.length - 1) {
