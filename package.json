@@ -40,7 +40,6 @@
     "vite": "^7.1.12"
   },
   "peerDependencies": {
-    "@ycore/componentry": "workspace:*",
     "clsx": ">= 2.1.0 < 3",
     "react": ">= 19.1.0 < 20",
     "react-dom": ">= 19.1.0 < 20",
