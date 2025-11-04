@@ -1,0 +1,5 @@
+{
+  "extends": ["@total-typescript/tsconfig/bundler/no-dom/library", "../tsconfig.base.json"],
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "dist", "**/*.integration.ts", "**/*.test.ts"]
+}
