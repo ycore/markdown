@@ -1,3 +1,4 @@
+import type { Fetcher } from '../@types/markdown.types';
 import { getMarkdownDocument, getMarkdownManifest } from '../markdown-data';
 
 export async function markdownLoader({ request, ASSETS }: { request: Request; ASSETS: Fetcher }) {

@@ -1,6 +1,10 @@
 import type { ThemeContext } from '@ycore/componentry/impetus/theme';
 import type { RouterContextProvider } from 'react-router';
 
+export interface Fetcher {
+  fetch(input: RequestInfo | URL, init?: RequestInit): Promise<Response>;
+}
+
 export interface Frontmatter {
   title?: string;
   description?: string;
